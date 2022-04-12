@@ -8,17 +8,19 @@
     <title>Contact Me</title>
 </head>
 <body>
-    <header>
-        <div class="header">
-            <h2> Rohan Ghevariya</h2>
-            
-          </div>
-    </header>
+  <header>
+    <div class="header">
+    
+        <label> Rohan Ghevariya</label><br>
+        <label class="subtitle">Weclome to my personal blog page</label>
+      </div>
+</header>
     <nav>
         <ul>
-            <li><a href="aboutme.html">About</a></li>
-            <li><a class="active" href="contactme.html">Contact</a></li>
-            <li><a  href="index.html">Home</a></li>
+          <li><a class="active" href="contactme.html">Contact</a></li>
+          <li><a  href="aboutme.html">About</a></li>
+          <li><a href="ontario.html">Ontario</a></li>
+          <li><a  href="index.html">Home</a></li>
           </ul>
     </nav>
     <main>
@@ -27,41 +29,56 @@
           
           <div class="leftcolumn">
             <div class="card">
-                
-                  <h2>Connect with me</h2>
-              <center>
-                   <div class="fakeimg" style="height: 50px;width: 50px;">
-                    <a href="#"> <img src="images/âPngtreeâlinkedin social media icon_3609691.png"></a>
-                  </div><br>
-                 <div class="fakeimg" style="height: 50px;width: 50px;">
-                  <a href="#"> <img src="images/github.png"></a>
-                  </div>
-                  </center>
-                  
+              <div class="row">
+              <h2>Follow me</h2>
+         
+              <div class="column" style="height: 50px; width: 50px;">
+              <a href="#"> <img src="images/âPngtreeâlinkedin social media icon_3609691.png"></a>
+             
               </div>
+              <div class="column" style="height: 50px; width: 50px;">
+                <a href="#"> <img src="images/github.png"></a>
+              </div>
+              <div class="column" style="height: 50px; width: 50px;">
+                <a href="#"> <img src="images/facebook.png"></a>
+              </div>
+              <div class="column" style="height: 50px; width: 50px;">
+                <a href="#"> <img src="images/instagram.png"></a>
+              </div>
+              </div>
+            </div>
             
           </div>
               <div class="rightcolumn">
                 <div class="card">
-                  <h2>Contact Me </h2>
-                  
-                  <p>Will be happy to get connect with you.</p>
-                  <p>Found me at: <br>
-                  Somewhere In canada <br>
-                  Planet Earth
-              </p>
-              <p>Phone Number: <br>
-               <a href="tel:0000000000">(000) 0000000</a>
-              </p>
-                </div>
+                  <h3>Write Me Here </h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="australia">Australia</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <a href="index.html"><input type="submit" value="Submit"></a>
+  </form>
+</div>
+</div>
+
                
-                <div class="card">
-                  <h3>Follow Me</h3>
-                  <p>Instagram <br>
-                    Twitter<br>
-                    Facebook</p>
-                </div>
-              </div>
+              
+             
           </div>
     </main>
     <footer>

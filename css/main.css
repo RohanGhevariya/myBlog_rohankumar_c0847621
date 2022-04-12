@@ -3,7 +3,7 @@
     box-sizing: border-box;
   }
   
-  /* Add a gray background color with some padding */
+ 
   body {
     font-family: Arial;
     padding: 20px;
@@ -19,10 +19,13 @@
   
   /* Header/Blog Title */
   .header {
-    padding: 30px;
-    font-size: 40px;
+    padding: 20px;
+    font-size: 35px;
     text-align: center;
     background: #bdc3c7 ;
+  }
+  .subtitle{
+    font-size: small;
   }
   
   /* Create two unequal columns that floats next to each other */
@@ -106,5 +109,27 @@
   .active {
     background-color: #9e9e9e;
   }
+ 
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight:bold;
+  }
+  .image{
+    float: left;
+  }
+
   
  
